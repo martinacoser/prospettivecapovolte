@@ -16,13 +16,18 @@
 </head>
 <body>
   <header>
-    <nav class="navbar fixed-top navbar-light bg-light">
+    <nav class="navbar fixed-top navbar-light bg-light navbar-expand-lg navbar-light bg-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
       <ul>
         <li><a class="navbar-brand" href="index.html">HOME</a></li>
         <li><a class="navbar-brand" href="racconti.html">RACCONTI</a></li>
         <li><a class="navbar-brand" href="iltuoracconto.html">IL TUO RACCONTO</a></li>
         <li><a class="navbar-brand" href="documentazione.html">DOCUMENTAZIONE</a></li>
       </ul>
+    </div>
     </nav>
   </header>
 
@@ -33,8 +38,8 @@
   </ol>
   </nav>
 
-  <div class="col d-flex justify-content-center">
-  <div class="card" style="width: 80%;">
+  <div class="container">
+  <div class="card" style="width: 100%;">
     <h2 class="card-title">Larghe vedute</h2>
     <p class="nome">Il racconto di <b>Samuel</b></p>
     <p class="tempo-lettura">Tempo di lettura: 30 sec<p/>
@@ -69,39 +74,13 @@ Erano esattamente l’opposto di come io li dipingevo nella mia testa: persone d
 
   <div class="altri-racconti">
   <h3 class="more-posts">Leggi altri racconti</h3>
-  <div class="card-deck">
-   <div class="card">
-        <a class="img-link" href="virilitavulnerabile.html">
-          <div class="img-hover-zoom">
-        <img src="img/virilitavulnerabile.jpg" class="img-fluid" alt="Responsive image" class="card-img-top">
-      </div>
-          </a>
-          <div class="card-body">
-            <h3 class="card-title">Virilità vulnerabile</h3>
-            <p>Nella nostra società l’idea di uomo è ben delineata: virile, forte e poco in contatto con i propri sentimenti e questo spesso porta gli uomini ad aderire a un’immagine che non rispecchia il loro modo di essere.</p>
-            <div class="card-footer">
-            <button class="button"><a href="virilitavulnerabile.html">leggi il racconto</a></button>
-            </div>
-          </div>
-      </div> 
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
       <div class="card">
-        <a class="img-link" href="cuochisenzafrontiere.html">
-          <div class="img-hover-zoom">
-        <img src="img/cuochisenzafrontiere.jpg" class="img-fluid" alt="Responsive image" class="card-img-top">
-      </div>
-      </a>
-          <div class="card-body">
-            <h3 class="card-title">Cuochi senza frontiere</h3>
-            <p>In quanto Italiani siamo molto fieri della nostra cucina e spesso la consideriamo superiore a quelle degli altri paesi supponendo che la nostra nazionalità ci renda automaticamente dei cuochi provetti.</p>
-            <div class="card-footer">
-            <button class="button"><a href="cuochisenzafrontiere.html">leggi il racconto</a></button>
-          </div>
-          </div>
-      </div>
-       <div class="card">
         <a class="img-link" href="unopsichiatraperamico.html">
           <div class="img-hover-zoom">
-        <img src="img/unopsichiatraperamico.jpg" class="img-fluid" alt="Responsive image" class="card-img-top">
+        <img src="img/unopsichiatraperamico.jpg" class="card-img-top">
       </div>
       </a>
           <div class="card-body">
@@ -112,7 +91,41 @@ Erano esattamente l’opposto di come io li dipingevo nella mia testa: persone d
             </div>
           </div>
       </div>
+    </div>
+    <div class="col-sm">
+<div class="card">
+        <a class="img-link" href="frenesiedoriente.html">
+          <div class="img-hover-zoom">
+        <img src="img/frenesiedoriente.jpg" class="card-img-top">
+      </div>
+        </a>
+          <div class="card-body">
+            <h3 class="card-title">Frenesie d'Oriente</h3>
+            <p>Spesso la nostra visione eurocentrica del mondo ci porta a pensare alle nostre città come più organizzate, grandi e funzionali rispetto a quelle orientali, ma è davvero così?</p>
+            <div class="card-footer">
+            <button class="button"><a href="frenesiedoriente.html">leggi il racconto</a></button>
+          </div>
+      </div>
+      </div>
+    </div>
+    <div class="col-sm">
+<div class="card">
+        <a class="img-link" href="ipariimpari.html">
+          <div class="img-hover-zoom">
+        <img src="img/ipariimpari.jpg" class="card-img-top">
+      </div>
+          </a>
+          <div class="card-body">
+            <h3 class="card-title">I pari impari</h3>
+            <p>Sono tantissimi i film in cui nel rappresentare i giovani automaticamente si mostrano gruppi più o meno popolari di ragazzi che si escludono a vicenda; ma l’appartenenza a questi gruppi porta a una vita più piena o riuscita?</p>
+            <div class="card-footer">
+            <button class="button"><a href="ipariimpari.html">leggi il racconto</a></button>
+            </div>
+            </div>
+          </div>
+    </div>
   </div>
+</div>
 </div>
 <footer>
       <p class="col d-flex justify-content-center">

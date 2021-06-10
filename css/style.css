@@ -3,13 +3,13 @@
 header {
 	background-color: white;
 	text-align: center;
-	padding-top: 60px;
-	padding-bottom: 10px;
+	padding-top: 5%;
+	padding-bottom: 5% !important;
 }
 
 header img {
 	padding-top: 0px;
-	padding-bottom: 20px;
+	padding-bottom: 0px;
 	margin: auto !important;
 	height: 85%;
 }
@@ -20,33 +20,37 @@ nav.bg-light {
 	padding-bottom: 0px;
 }
 
-nav ul {
+nav div ul {
 	padding: 1em 0px;
 	margin: auto;
 }
 
-nav ul li {
+nav div ul li {
 	display: inline-block;
 }
 
-nav ul li a {
+nav div ul li a {
 	font-family: 'Lato', sans-serif;
 	color: black;
 	font-weight: 900;
 	font-size: 15px !important;
 }
 
-nav ul li a:hover {
+nav div ul li a:hover {
 	color: white !important;
 	font-weight: bold !important;
+	background-color: #D0E1D4;
 }
 
+.navbar-toggler {
+	border: 0px !important;
+}
 
 
 #domanda {
 	font-family: 'Playfair Display', serif;
 	font-weight: bold;
-	font-size: 3vw;
+	font-size: 4vw;
 	margin: auto;
 }
 
@@ -56,13 +60,16 @@ nav ul li a:hover {
 	font-weight: 300;
 	font-size: 2vw;
 	text-align: center;
-	padding: 10px 200px 10px;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 
 
 div.leggi-racconti {
-	margin-top: 30px;
+	margin:auto;
 	background-color: #D0E1D4;
 	padding-bottom: 30px;
 }
@@ -75,15 +82,13 @@ div.leggi-racconti h3.more-posts1 {
 	padding-bottom: 20px;
 	padding-top: 20px;
 	border-bottom: 2px solid white;
-	margin-left: 150px;
-	margin-right: 150px;
 }
 
 div.leggi-racconti h3.more-posts2 {
 	font-family: 'Lato', sans-serif;
 	text-transform: uppercase;
 	font-size: 2.5vw;
-	padding-bottom: 0px;
+	padding-bottom: 10px;
 	padding-top: 20px;
 	color: black;
 }
@@ -111,23 +116,11 @@ div.leggi-racconti h3.more-posts2 a:hover {
 }
 
 
-div.leggi-racconti div.card-deck {
-	padding-top: 20px;
-}
-
-
-.card-deck {
-	padding-top: 30px;
-	padding-bottom: 0px;
-	width: 80%;
-	margin: auto !important;
-
-}
-
 
 .card {
+	margin-top: 20px;
+	width: 90%;
 	height: 30%;
-	padding-left: 
 }
 
 
@@ -200,14 +193,25 @@ div.card-body p {
 	padding-bottom: 10px;
 }
 
+div.card-body {
+	background-color: white;
+	border-radius: 4px;
+	border-left: 1px solid #D3D3D3;
+	border-right: 1px solid #D3D3D3;
+	border-bottom: 1px solid #D3D3D3;
+	margin-bottom: 20px white;
+}
+
+
+
 
 h2 {
 	font-family: 'Playfair Display', serif;
 	font-weight: 600;
-	font-size: 60px !important;
-	padding-top: 30px;
+	font-size: 5vw !important;
+	padding-top: 1em;
 	padding-bottom: 0px;
-	padding-left: 60px;
+	padding-left: 1em;
 }
 
 .card-racconti {
@@ -221,27 +225,31 @@ h2 {
 
 .breadcrumb {
 	background-color: white !important;
+	padding-top: 1em !important;
 }
 
 .breadcrumb-item a {
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
 	color: black;
+	font-size: 1em;
 }
 
 .breadcrumb-item a:hover {
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
 	color: black;
+	font-size: 1em;
 }
+
 
 p.nome {
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
-	font-size: 20px;
+	font-size: 2.5vw !important;
 	text-transform: uppercase;
-	padding-top: 10px;
-	padding-left: 60px;
+	padding-top: 0.5em;
+	padding-left: 2em;
 	margin-bottom: 2px;
 
 }
@@ -249,27 +257,28 @@ p.nome {
 p.racconto {
 	font-family: 'Zilla Slab', serif !important;
 	font-weight: 300 !important;
-	font-size: 20px !important;
+	font-size: 2vw !important;
 	text-align: left !important;
-	padding-left: 50px;
-	padding-right: 30px;
-	padding-top: 20px;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-top: 1em;
 	width: 95%;
 }
 
 div nav ul li a.page-link {
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
-	font-size: 17px !important;
+	font-size: 1.5vw !important;
 	color: black;
 	border: 0px white;
 	display: inline-block;
+	padding-top: 0px;
 }
 
 div nav ul li a.page-link:hover {
 	font-family: 'Lato', sans-serif !important;
 	font-weight: bold !important;
-	font-size: 17px !important;
+	font-size: 1.5vw !important;
 	color: black !important;
 	border: 0px white;
 	background-color: white;
@@ -292,8 +301,8 @@ div.altri-racconti h3.more-posts {
 .tempo-lettura {
 	font-family: 'Zilla Slab', serif;
 	font-weight: 300;
-	font-size: 17px;
-	padding-left: 60px;
+	font-size: 2vw !important;
+	padding-left: 2.5em;
 	padding-top: 0px;
 	padding-bottom: 0px;
 }
@@ -331,23 +340,24 @@ span.domanda{
 	text-align: center;
 	border: 5px solid #D0E1D4;
 	border-radius: 8px;
-	padding: 20px 30px;
-	margin-right: 120px;
-	margin-left: 120px;
+	padding: 1em 3em;
+	margin-right: 10%;
+	margin-left: 10%;
 	font-family: 'Playfair Display', serif;
-	font-size: 2vw;
+	font-size: 2vw !important;
 	color: black;
 }
 
 div p#definizione a {
 	font-family: 'Playfair Display', serif;
-	font-size: 22px;
+	font-size: 2vw;
 	color: black;
+	font-weight: 300;
 }
 
 div p#definizione a:hover {
 	font-family: 'Playfair Display', serif;
-	font-size: 22px;
+	font-size: 2vw;
 	color: black;
 	font-weight: bold; 
 	background-color: white;
@@ -364,7 +374,6 @@ div p#definizione a:hover {
 footer {
 	margin-top: 0px;
 	margin-bottom: 10px;
-	border-top: 2px solid #D0E1D4;
 }
 
 
@@ -395,13 +404,13 @@ body div.container p.condividi {
 }
 
 body div.container {
-	margin-left: 0px;
+	margin: auto;
 }
 
 body div.container p {
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
-	font-size: 20px;
+	font-size: 1em;
 }
 
 body div.container p.tuoracconto {
@@ -431,6 +440,7 @@ body div.container p a:hover{
 #lastone {
 	padding-bottom: 20px;
 }
+
 
 
 
