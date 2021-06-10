@@ -50,18 +50,17 @@ nav div ul li a:hover {
 #domanda {
 	font-family: 'Playfair Display', serif;
 	font-weight: bold;
-	font-size: 4vw;
+	font-size: 200%;
 	margin: auto;
+	text-align: center;
 }
 
 #abstract {
 	font-family: 'Lato', sans-serif;
 	text-transform: uppercase;
 	font-weight: 300;
-	font-size: 2vw;
+	font-size: 130%;
 	text-align: center;
-	padding-left: 10%;
-	padding-right: 10%;
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
@@ -77,7 +76,7 @@ div.leggi-racconti {
 div.leggi-racconti h3.more-posts1 {
 	font-family: 'Lato', sans-serif;
 	text-transform: uppercase;
-	font-size: 2vw;
+	font-size: 1.5em !important;
 	color: black;
 	padding-bottom: 20px;
 	padding-top: 20px;
@@ -87,7 +86,7 @@ div.leggi-racconti h3.more-posts1 {
 div.leggi-racconti h3.more-posts2 {
 	font-family: 'Lato', sans-serif;
 	text-transform: uppercase;
-	font-size: 2.5vw;
+	font-size: 1.2em !important;
 	padding-bottom: 10px;
 	padding-top: 20px;
 	color: black;
@@ -96,7 +95,7 @@ div.leggi-racconti h3.more-posts2 {
 div.leggi-racconti h3.more-posts2 a {
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
-	font-size: 2.5vw;
+	font-size: 1.2em !important;
 	text-transform: uppercase;
 	padding-bottom: 0px;
 	padding-top: 20px;
@@ -106,7 +105,7 @@ div.leggi-racconti h3.more-posts2 a {
 div.leggi-racconti h3.more-posts2 a:hover {
 	font-family: 'Lato', sans-serif;
 	text-transform: uppercase;
-	font-size: 2.5vw;
+	font-size: 1.2em !important;
 	font-weight: bold;
 	padding-bottom: 0px;
 	padding-top: 20px;
@@ -120,6 +119,7 @@ div.leggi-racconti h3.more-posts2 a:hover {
 .card {
 	margin-top: 20px;
 	width: 90%;
+	margin-left: 15px;
 }
 
 
@@ -224,7 +224,9 @@ h2 {
 
 .breadcrumb {
 	background-color: white !important;
-	padding-top: 1em !important;
+	padding-top: 0.5em !important;
+	padding-left: 4em !important;
+	margin-bottom: 0px !important;
 }
 
 .breadcrumb-item a {
@@ -245,10 +247,10 @@ h2 {
 p.nome {
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
-	font-size: 2.5vw !important;
+	font-size: 3vw !important;
 	text-transform: uppercase;
 	padding-top: 0.5em;
-	padding-left: 2em;
+	padding-left: 1.5em;
 	margin-bottom: 2px;
 
 }
@@ -256,10 +258,8 @@ p.nome {
 p.racconto {
 	font-family: 'Zilla Slab', serif !important;
 	font-weight: 300 !important;
-	font-size: 2vw !important;
+	font-size: 1.5em !important;
 	text-align: left !important;
-	padding-left: 2em;
-	padding-right: 2em;
 	padding-top: 1em;
 	width: 95%;
 }
@@ -267,7 +267,7 @@ p.racconto {
 div nav ul li a.page-link {
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
-	font-size: 1.5vw !important;
+	font-size: 1em !important;
 	color: black;
 	border: 0px white;
 	display: inline-block;
@@ -294,6 +294,7 @@ div.altri-racconti h3.more-posts {
 	font-family: 'Lato', sans-serif;
 	font-weight: bold;
 	color: black;
+	font-size: 1.5em !important;
 }
 
 
@@ -336,24 +337,22 @@ span.domanda{
 	text-align: center;
 	border: 5px solid #D0E1D4;
 	border-radius: 8px;
-	padding: 1em 3em;
-	margin-right: 10%;
-	margin-left: 10%;
+	padding: 0.5em 1em;
 	font-family: 'Playfair Display', serif;
-	font-size: 2vw !important;
+	font-size: 100% !important;
 	color: black;
 }
 
 div p#definizione a {
 	font-family: 'Playfair Display', serif;
-	font-size: 2vw;
+	font-size: 150%;
 	color: black;
 	font-weight: 300;
 }
 
 div p#definizione a:hover {
 	font-family: 'Playfair Display', serif;
-	font-size: 2vw;
+	font-size: 150%;
 	color: black;
 	font-weight: bold; 
 	background-color: white;
@@ -362,8 +361,8 @@ div p#definizione a:hover {
 
 
 .carosello {
-	margin-top: 70px;
-	margin-bottom: 70px;
+	margin-top: 1em;
+	margin-bottom: 2em;
 }
 
 
@@ -435,6 +434,10 @@ body div.container p a:hover{
 
 #lastone {
 	padding-bottom: 20px;
+}
+
+.img-fluid {
+	width: 90%;
 }
 
 
