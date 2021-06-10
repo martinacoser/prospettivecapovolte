@@ -1,0 +1,433 @@
+
+
+header {
+	background-color: white;
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 10px;
+}
+
+header img {
+	padding-top: 0px;
+	padding-bottom: 20px;
+	margin: auto !important;
+	height: 85%;
+}
+
+nav.bg-light {
+	background-color: #D0E1D4 !important;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+nav ul {
+	padding: 1em 0px;
+	margin: auto;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	font-family: 'Lato', sans-serif;
+	color: black;
+	font-weight: 900;
+	font-size: 15px !important;
+}
+
+nav ul li a:hover {
+	color: white !important;
+	font-weight: bold !important;
+}
+
+
+
+#domanda {
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+	font-size: 30px;
+	margin: auto;
+}
+
+#abstract {
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 25px;
+	text-align: center;
+	padding: 10px 200px 10px;
+}
+
+
+
+div.leggi-racconti {
+	margin-top: 30px;
+	background-color: #D0E1D4;
+	padding-bottom: 30px;
+}
+
+div.leggi-racconti h3.more-posts1 {
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	color: black;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	border-bottom: 2px solid white;
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
+div.leggi-racconti h3.more-posts2 {
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	padding-bottom: 0px;
+	padding-top: 20px;
+	color: black;
+}
+
+div.leggi-racconti h3.more-posts2 a {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+	padding-bottom: 0px;
+	padding-top: 20px;
+	color: black;
+}
+
+div.leggi-racconti h3.more-posts2 a:hover {
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-bottom: 0px;
+	padding-top: 20px;
+	color: black;
+	background-color: #D0E1D4;
+	text-decoration: none;
+}
+
+
+div.leggi-racconti div.card-deck {
+	padding-top: 20px;
+}
+
+
+.card-deck {
+	padding-top: 30px;
+	padding-bottom: 0px;
+	width: 80%;
+	margin: auto !important;
+
+}
+
+
+.card {
+	height: 30%;
+	padding-left: 
+}
+
+
+.img-hover-zoom {
+  overflow: hidden; 
+}
+
+.img-hover-zoom img {
+  transition: transform .1s ease;
+}
+
+.img-hover-zoom:hover img {
+  transform: scale(1.3);
+ }
+
+
+
+div.card-footer a:link, div a:visited {
+  color: #FFBE79;
+  background-color: white;
+  padding: 1px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Lato', sans-serif;
+  border-radius: 8px;
+}
+
+
+.button {
+	padding: 0px;
+	background-color: white;
+	border-radius: 8px;
+	margin-top: 10px;
+	text-align: center;
+	border: 2px solid #FFBE79;
+}
+
+.button:hover {
+	color: white;
+	background-color: #FFBE79;
+}
+
+div a:hover {
+	color: white;
+	background-color: #FFBE79;
+}
+
+
+
+.card-footer {
+	background-color: white !important;
+	text-align: center;
+}
+
+
+h3 {
+	font-family: 'Playfair Display', serif;
+	font-weight: bold !important;
+	font-size: 22px !important;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+div.card-body p {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+
+h2 {
+	font-family: 'Playfair Display', serif;
+	font-weight: 600;
+	font-size: 60px !important;
+	padding-top: 30px;
+	padding-bottom: 0px;
+	padding-left: 60px;
+}
+
+.card-racconti {
+	margin: auto;
+	width: 90%;
+}
+
+.justify-content-center {
+	padding-top: 20px;
+}
+
+.breadcrumb {
+	background-color: white !important;
+}
+
+.breadcrumb-item a {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	color: black;
+}
+
+.breadcrumb-item a:hover {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	color: black;
+}
+
+p.nome {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding-top: 10px;
+	padding-left: 60px;
+	margin-bottom: 2px;
+
+}
+
+p.racconto {
+	font-family: 'Zilla Slab', serif !important;
+	font-weight: 300 !important;
+	font-size: 20px !important;
+	text-align: left !important;
+	padding-left: 50px;
+	padding-right: 30px;
+	padding-top: 20px;
+	width: 95%;
+}
+
+div nav ul li a.page-link {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 17px !important;
+	color: black;
+	border: 0px white;
+	display: inline-block;
+}
+
+div nav ul li a.page-link:hover {
+	font-family: 'Lato', sans-serif !important;
+	font-weight: bold !important;
+	font-size: 17px !important;
+	color: black !important;
+	border: 0px white;
+	background-color: white;
+}
+
+.altri-racconti {
+	margin-top: 40px;
+	padding-top: 30px;
+	background-color: #D0E1D4;
+}
+
+div.altri-racconti h3.more-posts {
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	color: black;
+}
+
+
+
+.tempo-lettura {
+	font-family: 'Zilla Slab', serif;
+	font-weight: 300;
+	font-size: 17px;
+	padding-left: 60px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+img.card-racconti {
+	margin: auto;
+}
+
+div.altri-racconti div.card-deck {
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
+
+.carousel-control-prev, .carousel-control-next {
+	background-color: white !important;
+}
+
+span {
+	color: #FFBE79;
+	font-weight: bold;
+}
+
+span.domanda{
+	color: black;
+	font-size: 30px;
+	padding-top: 12px;
+}
+
+#definizione {
+	text-align: center;
+	border: 5px solid #D0E1D4;
+	border-radius: 8px;
+	padding: 20px 30px;
+	margin-right: 120px;
+	margin-left: 120px;
+	font-family: 'Playfair Display', serif;
+	font-size: 22px;
+	color: black;
+}
+
+div p#definizione a {
+	font-family: 'Playfair Display', serif;
+	font-size: 22px;
+	color: black;
+}
+
+div p#definizione a:hover {
+	font-family: 'Playfair Display', serif;
+	font-size: 22px;
+	color: black;
+	font-weight: bold; 
+	background-color: white;
+	text-decoration: none;
+}
+
+
+.carosello {
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
+
+footer {
+	margin-top: 0px;
+	margin-bottom: 10px;
+	border-top: 2px solid #D0E1D4;
+}
+
+
+footer p i{
+	font-size: 30px;
+	padding-right: 10px;
+	background-color: white;
+	color: black;
+}
+
+footer p i:hover {
+	background-color: white;
+	color: #FFBE79;
+}
+
+.raccontatu {
+	width: 100%;
+}
+
+body div.container p.condividi {
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-size: 30px;
+	padding-top: 100px;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #FFBE79;
+	margin-right: 50px;
+}
+
+body div.container {
+	margin-left: 0px;
+}
+
+body div.container p {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+}
+
+body div.container p.tuoracconto {
+	font-family: 'Playfair Display', serif;
+	font-weight: 300;
+	font-size: 20px;
+	padding-top: 30px;
+}
+
+body div.container p a{
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	color: black;
+}
+
+
+body div.container p a:hover{
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	color: #FFBE79;
+	background-color: white;
+	text-decoration: none;
+}
+
+#lastone {
+	padding-bottom: 20px;
+}
+
+
+
+
