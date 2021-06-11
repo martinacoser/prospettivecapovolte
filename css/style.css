@@ -233,7 +233,7 @@ h2 {
 	font-size: 5vw !important;
 	padding-top: 1em;
 	padding-bottom: 0px;
-	padding-left: 1em;
+	padding-left: 45px;
 }
 
 .card-racconti {
@@ -250,11 +250,13 @@ h2 {
 	padding-top: 0px !important;
 	padding-left: 80px !important;
 	margin-bottom: 0px !important;
+	margin-left: 35px;
 }
 
 @media only screen and (max-device-width: 480px) {
 	.breadcrumb {
-		padding-left: 20px !important;
+		padding-left: 0px !important;
+		margin-left: 10px;
 
 	}
 }
@@ -291,6 +293,7 @@ p.nome {
 		border: 0px solid white;
 		padding-top: 0px;
 		margin-top: 0px;
+		width: 100%;
 	}
 }
 
@@ -298,27 +301,38 @@ p.nome {
 	#singola p{
 	margin-left: 2px !important;
 	font-size: 1.1em !important;
+
+}
+}
+
+@media only screen and (max-device-width: 480px) {
+	#singola p.nome{
+	margin-left: 0px;
+	padding-left: 20px;
+
 }
 }
 
 @media only screen and (max-device-width: 480px) {
 	#singola h2{
-	margin-left: 2px !important;
+	margin-left: 20px !important;
 	font-size: 1.5em !important;
+	padding-left: 0px;
 }
 }
 
 @media only screen and (max-device-width: 480px) {
 	#singola p.tempo-lettura{
-	padding-left: 25px !important;
+	padding-left: 20px !important;
 	font-size: 1em !important;
 	margin-bottom: 0px;
 }
 }
 
 #singola {
-	margin-left: 0px;
-	width: 100% !important;
+	margin: auto;
+	margin-top: 10px;
+	width: 90% !important;
 }
 
 #singola img {
