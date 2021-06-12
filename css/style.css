@@ -46,6 +46,7 @@ nav div ul li {
 	display: inline-block;
 }
 
+
 nav div ul li a {
 	font-family: 'Lato', sans-serif;
 	color: black;
@@ -61,6 +62,17 @@ nav div ul li a:hover {
 
 .navbar-toggler {
 	border: 0px !important;
+}
+
+.navbar-brand-active {
+	display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+    color: white !important;
 }
 
 
