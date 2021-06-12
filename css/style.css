@@ -549,7 +549,10 @@ body div.container p a:hover{
 	}
 }
  
-
+.navbar-toggler-icon {
+	color: black;
+	font-size: 1.2em;
+}
 
 
 
