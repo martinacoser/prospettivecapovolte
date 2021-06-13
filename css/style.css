@@ -177,7 +177,6 @@ div.container p#abstract{
 @media only screen and (max-device-width: 480px) {
 	div.leggi-racconti div.container {
 		padding: 0px;
-		margin-left: 5px !important;
 		margin: 0px;
 	}
 }
@@ -577,7 +576,7 @@ body div.container p.condividi {
 @media only screen and (max-device-width: 480px) {
 	body div.container p.condividi {
 		padding-top: 0px !important;
-		margin-left: 20px;
+		margin-left: 10px;
 	}
 }
 
@@ -601,14 +600,14 @@ body div.container p.tuoracconto {
 @media only screen and (max-device-width: 480px) {
 	body div.container p.tuoracconto {
 		padding-top: 20px;
-		margin-left: 20px;
+		margin-left: 10px;
 	}
 }
 
 @media only screen and (max-device-width: 480px) {
 	body div.container p#inviaracconto {
 		padding-top: 10px;
-		margin-left: 20px;
+		margin-left: 10px;
 		font-size: 20px;
 	}
 }
