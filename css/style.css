@@ -766,3 +766,16 @@ div.documentazione ul li {
 	}
 }
 
+div.documentazione a:hover {
+	background-color: white;
+	font-weight: bold;
+	color: #FFBE79;
+	text-decoration: none;
+}
+
+div.documentazione a {
+	background-color: white;
+	color: #FFBE79;
+	text-decoration: none;
+}
+
